@@ -1,0 +1,111 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    #main-info-container{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 70%;
+        #left-footer{
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                margin-right: 10px;
+                color:  #231535;
+                font-weight: bold;
+                font-size: 1.0rem;
+                padding-bottom: 7px;
+                transition: color 0.2s, border 0s;
+            }
+            a:hover{
+                border-bottom: 2px solid  goldenrod;
+                color: goldenrod;
+            }
+            #logo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 50%;
+                height: 100px;
+                h1{
+                  font-family: cursive;
+                }
+                h2{
+                  font-family: "Tangerine", serif;
+                  margin-top: -12px;
+                  color: #b98a15;
+                }
+              }
+        }
+        #right-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 40%;
+            #contact-info{
+                h4{
+                    color:  #231535;
+                    font-size: 1.8rem;
+                    font-weight: bold;
+                    margin-top: 10px;
+                }
+                h5{
+                    color:  rgba(230, 181, 58, 0.65);
+                    font-size: 1rem;
+                    font-weight: bold;
+                    text-align: right;
+                }
+                h6{
+                    color: #231535;
+                    text-align: right;
+                    font-weight: lighter;
+                    font-size: 0.9rem;
+                    margin-top: 8px;
+                }
+                #social-links{
+                    margin-top: 20px;
+                    text-align: right;
+                    a{
+                        color:  rgba(230, 181, 58, 0.65);
+                        font-size: 1.2rem;
+                        margin-left: 10px;
+                        transition: 0.2s;
+                    }
+                    .fa{
+                        transition: 0.2s;
+                    }
+                    .fa-instagram:hover{
+                        color: #F56040;
+                    }
+                    .fa-linkedin-square:hover{
+                        color: #0e76a8;
+                    }
+                    .fa-twitter:hover{
+                        color: #00acee;
+                    }
+                    .fa-facebook:hover{
+                        color: #3b5998;
+                    }
+                }
+            }
+            #rights{
+                h6{
+                    color: #231535;
+                    text-align: right;
+                    font-weight: lighter;
+                    font-size: 0.9rem;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

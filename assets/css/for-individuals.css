@@ -1,0 +1,311 @@
+#red {
+  margin-top: 10px;
+  height: 15%;
+  width: 100%;
+  background-color: indianred;
+  display: flex;
+  justify-content: center; }
+  #red #red-cont {
+    color: white;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #red #red-cont h2 {
+      font-weight: lighter;
+      font-size: 2rem;
+      color: white; }
+    #red #red-cont a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: lighter;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+h2 {
+  color: navy;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 15px; }
+
+p {
+  width: 99%;
+  margin-top: 25px;
+  color: gray;
+  text-align: justify;
+  line-height: 26px;
+  font-weight: lighter; }
+
+#article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px; }
+  #article #article-container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between; }
+    #article #article-container #left-article {
+      width: 60%; }
+    #article #article-container #right-img {
+      width: 40%; }
+      #article #article-container #right-img img {
+        margin-top: 33px;
+        margin-left: 37px;
+        width: 90%;
+        height: 85%; }
+
+ins {
+  text-decoration: none; }
+
+#plans {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-color: #dbdee43d; }
+  #plans #upper {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; }
+    #plans #upper .outer {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 30.3%;
+      border-radius: 20px; }
+      #plans #upper .outer .cyan {
+        background-color: #a8d0d6;
+        width: 100%;
+        height: 67px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3px; }
+        #plans #upper .outer .cyan h2 {
+          margin-top: 0px;
+          font-size: 0.9rem;
+          font-weight: bolder;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          text-transform: uppercase;
+          color: #24305E; }
+      #plans #upper .outer .peach {
+        background-color: #f8e9a1;
+        width: 100%;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3px; }
+        #plans #upper .outer .peach div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%; }
+          #plans #upper .outer .peach div span {
+            color: #24305E;
+            margin-bottom: 14px; }
+          #plans #upper .outer .peach div h2 {
+            margin-top: 0px;
+            color: #324382;
+            font-weight: bold;
+            font-size: 2.5rem;
+            margin-left: 6px; }
+      #plans #upper .outer .white {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-top: 20px;
+        box-shadow: 10px 8px 24px -16px gray; }
+        #plans #upper .outer .white div {
+          width: 90%;
+          color: gray;
+          height: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-bottom: 1px solid #dbdee482; }
+          #plans #upper .outer .white div h5 {
+            text-align: center; }
+        #plans #upper .outer .white button {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          font-size: 0.8rem;
+          padding: 15px;
+          padding-right: 20px;
+          padding-left: 20px;
+          text-transform: uppercase;
+          border-radius: 20px;
+          border: 2px solid #374884f2;
+          color: white;
+          font-weight: bolder;
+          background-color: tomato;
+          transition: 0.2s; }
+        #plans #upper .outer .white button:focus {
+          outline: none; }
+        #plans #upper .outer .white button:hover {
+          border-radius: 0px; }
+  #plans #lower {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px; }
+    #plans #lower .outer {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 30.3%;
+      border-radius: 20px; }
+      #plans #lower .outer .cyan {
+        background-color: #a8d0d6;
+        width: 100%;
+        height: 67px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3px; }
+        #plans #lower .outer .cyan h2 {
+          margin-top: 0px;
+          font-size: 0.9rem;
+          font-weight: bolder;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          text-transform: uppercase;
+          color: #24305E; }
+      #plans #lower .outer .peach {
+        background-color: #f8e9a1;
+        width: 100%;
+        height: 102px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3px; }
+        #plans #lower .outer .peach div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%; }
+          #plans #lower .outer .peach div span {
+            color: #24305E;
+            margin-bottom: 14px; }
+          #plans #lower .outer .peach div h2 {
+            margin-top: 0px;
+            color: #324382;
+            font-weight: bold;
+            font-size: 2.5rem;
+            margin-left: 6px; }
+      #plans #lower .outer .white {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-top: 20px;
+        box-shadow: 10px 8px 24px -16px gray; }
+        #plans #lower .outer .white div {
+          width: 90%;
+          color: gray;
+          height: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-bottom: 1px solid #dbdee482; }
+          #plans #lower .outer .white div h5 {
+            text-align: center; }
+        #plans #lower .outer .white button {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          font-size: 0.8rem;
+          padding: 15px;
+          padding-right: 20px;
+          padding-left: 20px;
+          text-transform: uppercase;
+          border-radius: 20px;
+          border: 2px solid #374884f2;
+          color: white;
+          font-weight: bolder;
+          background-color: tomato;
+          transition: 0.2s; }
+        #plans #lower .outer .white button:focus {
+          outline: none; }
+        #plans #lower .outer .white button:hover {
+          border-radius: 0px; }
+
+#pd2 {
+  margin-left: 60px; }
+
+#book-sess {
+  width: 100%;
+  height: 30%;
+  background-color: #a8d0e6;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  #book-sess .yellow {
+    height: 0px;
+    width: 50px;
+    border: rgba(255, 255, 0, 0.609) solid 3px;
+    position: absolute;
+    top: 2448px;
+    left: 154px;
+    z-index: 2; }
+  #book-sess #left-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 60%; }
+    #book-sess #left-info h4 {
+      color: #374884f2;
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-left: -128px; }
+    #book-sess #left-info h2 {
+      color: #374884f2;
+      font-weight: bold;
+      font-size: 1.9rem; }
+  #book-sess #book-btn {
+    width: 50%;
+    display: flex;
+    justify-content: center; }
+    #book-sess #book-btn button {
+      font-size: 0.8rem;
+      padding: 15px;
+      padding-right: 20px;
+      padding-left: 20px;
+      text-transform: uppercase;
+      border-radius: 20px;
+      border: 2px solid #374884f2;
+      color: white;
+      font-weight: bolder;
+      background-color: tomato;
+      transition: 0.2s; }
+    #book-sess #book-btn button:focus {
+      outline: none; }
+    #book-sess #book-btn button:hover {
+      border-radius: 0px; }
